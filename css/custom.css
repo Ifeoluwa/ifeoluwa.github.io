@@ -1,0 +1,116 @@
+td.large-12.last, th.large-12.last{
+    padding-right:26px;
+}
+td.large-12.first, th.large-12.first{
+    padding-left:26px;
+}
+.body-border{
+    border-top:6px solid #3a4ce1;
+}
+
+.report-data:nth-child(odd){
+    background: #f3f3f3;
+}
+.report-data:nth-child(even){
+    background: #f9f9f9;
+}
+th.callout-inner{
+    padding:0;
+}
+th.callout-inner.secondary{
+    border:none;
+    background:#fff;
+}
+
+
+.report-data th, .report-data td, .report-headers th, .report-headers td{
+    padding: 15px 5px;
+    border-top: 1px solid #ccc;
+}
+.wallet-name{
+    width:30%;
+}
+table.button.float-center{
+    margin: 0 auto;
+}
+table.button table.btn-mwv td{
+    background: #3a4ce1;
+    border-color: #3a4ce1;
+    border-radius: 100px;
+    border:none;
+}
+table.button table.btn-mwv td a{
+    border-color:#A46BDF;
+    padding:12px 20px;
+}
+.footer{
+    background:#3a4ce100;
+    /*border-top:3px solid #f3f3f3;*/
+}
+.footer p{
+    font-size:14px;
+    color:white;
+}
+.footer td.large-3.first, th.large-3.first{
+    padding:30px;
+}
+.footer td.large-3, th.large-3{
+    padding:25px;
+}
+.footer-image{
+    padding: 30px 30px 10px 30px;
+    /*padding-bottom: 10px;*/
+}
+.footer-copyrights{
+    padding-bottom:25px;
+}
+.margin-top-15{
+    margin-top:15px;
+}
+/*class styles for new email templates*/
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+body, table.body, h1, h2, h3, h4, h5, h6{
+    color:#495087;
+}
+p, td, th, a{
+    color:#495087cc;
+}
+table.no-background{
+    background:none;
+}
+table.body img.brand-logo{
+    height:20px;
+}
+@media only screen and (min-width: 768px) {
+    table.body img.brand-logo{
+        height:30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size:28px;
+    }
+}
+.table-bg-top{
+    background:#3a4ce1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table-bg-top td{
+    padding:20px;
+}
+
+table.float-center.border-radius{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.width-80{
+    width: 70%;
+    margin: auto;
+}
+.social-icons td>a>img{
+    margin:auto;
+}
