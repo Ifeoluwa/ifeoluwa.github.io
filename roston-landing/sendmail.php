@@ -16,10 +16,10 @@ if (!filter_var($postData['email'], FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-$client = new PostmarkClient("96218138-644d-43fa-8a7d-5321729e330d");
+$client = new PostmarkClient("a25898cb-e63d-481b-9c8c-2380d6b51a4e");
 
 $sendResult = $client->sendEmail(
-    "tolu@putsbox.com",
+    "info@rostoninvestment.com",
     "info@rostoninvestment.com",
     'New Contact Message From - ' . $postData['name'],
     "Name: {$postData['name']} <br>" .
