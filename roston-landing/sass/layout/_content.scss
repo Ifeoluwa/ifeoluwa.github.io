@@ -45,15 +45,20 @@
 		}
 
 		figure{
+			height:500px;
+			overflow:hidden;
 			img{
 				display: block;
 				max-width: 100%;
 				width: 100%;
-				height: auto;
+				height: 90%;
+				object-fit: cover;
+				overflow:hidden;
 			}
 		}
 
 		figcaption{
+			height:10%;
 			background-color: $secondary-color;
 			color: white;
 			padding: 10px 120px 10px 20px;
@@ -86,10 +91,9 @@
 				border-left: 1px solid #302c2b;
 				display: block;
 				width: 60px;
-				height: 60px;
+				height: 40px;
 				text-align: center;
 				@include em(24);
-				padding-top: 10px;
 
 			}
 		}

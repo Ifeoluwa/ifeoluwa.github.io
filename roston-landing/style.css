@@ -1244,8 +1244,8 @@ form textarea {
     font-size: 1.2857142857em;
     color: #212b36; }
   .subscribe-form .form-title {
-    font-size: 36px;
-    font-size: 2.5714285714em;
+    font-size: 28px;
+    font-size: 2em;
     color: #212b36;
     font-weight: 300; }
   .subscribe-form p {
@@ -1315,12 +1315,18 @@ form textarea {
       width: 100%;
       margin-right: -100%;
       float: left; }
-    .feature-slider .slides figure img {
-      display: block;
-      max-width: 100%;
-      width: 100%;
-      height: auto; }
+    .feature-slider .slides figure {
+      height: 500px;
+      overflow: hidden; }
+      .feature-slider .slides figure img {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        overflow: hidden; }
     .feature-slider .slides figcaption {
+      height: 10%;
       background-color: #262322;
       color: white;
       padding: 10px 120px 10px 20px; }
@@ -1353,11 +1359,10 @@ form textarea {
         border-left: 1px solid #302c2b;
         display: block;
         width: 60px;
-        height: 60px;
+        height: 40px;
         text-align: center;
         font-size: 24px;
-        font-size: 1.7142857143em;
-        padding-top: 10px; }
+        font-size: 1.7142857143em; }
 
 .fullwidth-block {
   padding: 50px 0; }
