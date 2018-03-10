@@ -6,9 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
 		<title>Roston Investment</title>
+		<link rel="icon" type="image/png" href="roston-favicon.png">
 
 		<!-- Loading third party fonts -->
-		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 		<!-- Loading main css file -->
@@ -28,7 +29,7 @@
 			<header class="site-header" data-bg-image="images/bannerImage.jpg">
 				<div class="container">
 					<a href="#" class="branding">
-						<img src="images/logo.jpeg" alt="roston logo" height="65" width="auto">
+						<img src="images/new-logo.png" alt="Roston logo" height="65" width="auto">
 					</a>
 				</div>
 				<div class="overlay"></div>
@@ -85,24 +86,17 @@
 										<li>
 											<figure>
 												<img src="images/landing-3d.jpg" alt="Roston property">
-												<figcaption>
-													<h3 class="feature-title">Bespoke designs</h3>
-												</figcaption>
 											</figure>
 										</li>
 										<li>
 											<figure>
 												<img src="images/roston-property.jpg" alt="Roston property">
-												<figcaption>
-													<h3 class="feature-title">Unique designs</h3>
-												</figcaption>
 											</figure>
 										</li>
 
 										<li>
 											<figure>
 												<img src="images/roston-property-2.jpg" alt="Feature 3">
-
 											</figure>
 										</li>
 									</ul>
@@ -117,10 +111,10 @@
 			<footer class="site-footer">
 				<div class="container">
 					<div class="social-links">
-						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-						<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-						<a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+						<a href="https://web.facebook.com/rostonestates/" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/rostoninvest" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/rostoninvestment/" class="instagram"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/roston-investment-07488914a/" class="linkedin"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</footer>
